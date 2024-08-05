@@ -1,0 +1,70 @@
+/* This is my CSS */
+
+body {
+    background-color: #fffffe;
+}
+
+#main-page-title {
+    text-align: center;
+}
+
+p {
+    color: #2d334a;
+}
+
+h1, h2, h3, h4 {
+    color: #272343;
+}
+
+button {
+    background-color: #ffd803;
+    color: #272343;
+}
+
+a {
+    color: #ffd803;
+}
+
+.fade-in {
+    animation-name: fade-in-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade-in-animation {
+    0% {
+        margin-left: 100px;
+        opacity: 0%;
+        filter: blur(2px)
+    }
+    100% {
+        margin-left: 0px;
+        opacity: 100%;
+        filter: blur(0px)
+    }
+}
+
+/* #test {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: red;
+    }
+    100% {
+        background-color: orange;
+    }
+} */
+
+
+
